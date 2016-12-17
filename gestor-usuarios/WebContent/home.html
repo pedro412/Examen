@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 40%;
+      margin: auto;
+  }
+  </style>
+
+</head>
+
+<body>
+
+<nav>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html" >
+        <img alt="Brand" src="logo1.png" height="30" width="40">
+      </a>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="add-user-form.jsp">Nuevo Usuario <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="UsersControllerServlet">Borrar Usuario <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="UsersControllerServlet">Ver Usuarios <span class="sr-only">(current)</span></a></li>
+       
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+
+    </ol>
+    
+        <div class="carousel-inner" role="listbox">
+      <div class="item active">
+      <a href="add-user-form.jsp">
+        <img src="agregar.png" alt="Chania" width="300" height="256">
+        </a>
+      </div>
+
+      <div class="item">
+      <a href="UsersControllerServlet">
+        <img src="delete.png" alt="Chania" width="460" height="345">
+        </a>
+      </div>
+
+      <div class="item">
+      <a href="UsersControllerServlet">
+        <img src="verusuarios.png" alt="Flower" width="460" height="345">
+        </a>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+  <div class="container">
+      <div class="mt-1">
+        <h1>Pedro Alvarez</h1>
+      </div>
+ 
+ 		<p>Infosyst</p>
+      <p><a href="home.html">Home</a></p>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Cdmx - Diciembre</span>
+      </div>
+    </footer>
+
+</body>
+</html>
